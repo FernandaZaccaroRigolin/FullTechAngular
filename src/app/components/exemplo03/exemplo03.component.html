@@ -1,0 +1,18 @@
+<h4>Exemplo 03 - Diretiva ngFor + filtro</h4>
+<input type="text" #conteudo (keyup)="filtrar(conteudo.value)"  class="" />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let p of pessoas">
+            <td>{{p.nome}}</td>
+            <td>{{p.idade}}</td>
+        </tr>
+
+    </tbody>
+
+</table>
