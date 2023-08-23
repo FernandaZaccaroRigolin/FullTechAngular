@@ -10,6 +10,7 @@ import { Exemplo03Component } from './components/exemplo03/exemplo03.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { StartupComponent } from './components/startup/startup.component';
 import { HomeComponent } from './components/home/home.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './components/home/home.component';
     Exemplo03Component,
     MenuComponent,
     StartupComponent,
-    HomeComponent
+    HomeComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
